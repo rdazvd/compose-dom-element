@@ -1,0 +1,17 @@
+{
+  "name": "compose-dom-element",
+  "version": "0.0.1",
+  "description": "a utility for writing and styling static html by composing javascript functions",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdazvd/compose-dom-element.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/rdazvd/compose-dom-element/issues"
+  },
+  "homepage": "https://github.com/rdazvd/compose-dom-element#readme"
+}
