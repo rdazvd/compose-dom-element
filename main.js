@@ -1,9 +1,10 @@
-const defineHTML = (tagName, attributes, ...args) => {
-  let children = args.length ? [].concat(...args) : null;
+const createTag = (tagName, attributes, ...args) => {
+  const children = args.length ? [].concat(...args) : null;
   return { tagName, attributes, children };
 };
 
-const element = htmlElement => defineCSS(defineHTML(htmlElement));
+const createStylesheet = () => document.createElement('style');
+const addClass = classValue => styleMedia.addClass(classValue);
 
 const render = element => {
   if (typeof node === "string") return document.createTextNode(vnode);
@@ -18,4 +19,4 @@ const render = element => {
   return element;
 };
 
-export { element, render };
+export { addClass, createStylesheet, createTag, render };
